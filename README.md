@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/omniagent-logo.png" alt="OmniAgent Engine Logo" width="600">
+</p>
+
 # OmniAgent Engine 🤖
 
 The Cross-Language Autonomous Agent Hub. A high-performance, completely decoupled monorepo housing specialized, independent AI agents built across Python, Java, and LangChain frameworks to solve distinct enterprise automation use cases.
