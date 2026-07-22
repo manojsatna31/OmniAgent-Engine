@@ -1,0 +1,77 @@
+# ==========================================
+# Environmental & Secret Security (CRITICAL)
+# ==========================================
+*.env
+*.env.local
+*.env.*.local
+*.secrets
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# ==========================================
+# Python Specific
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+pythonenv/
+
+# Python Testing / Coverage
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.pypy_cache/
+
+# ==========================================
+# Java (Maven / Gradle) Specific
+# ==========================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+build/
+.gradle/
+/build/
+
+# ==========================================
+# IDEs and Editors (VS Code, IntelliJ, etc.)
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iws
+*.iml
+*.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.DS_Store
+Thumbs.db
