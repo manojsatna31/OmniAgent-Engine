@@ -10,11 +10,10 @@ The Cross-Language Autonomous Agent Hub. A high-performance, completely decouple
 
 ## 🧭 Agent Registry
 
-| Agent Name | Technology Stack | Status | Primary Capability |
-| :--- | :--- | :--- | :--- |
-| [Email Summarizer](./agents/email-summarizer-py) | Python, LangChain, OpenAI | `Stable` | Extracts action items and summaries from raw emails. |
-| [Invoice Parser](./agents/invoice-parser-java) | Java 17, LangChain4j, Maven | `Beta` | Extracts structured schema from unstructured PDF invoices. |
-| [Data Analyst](./agents/data-analyst-py) | Python, Pandas, Claude | `Planning` | Converts natural language queries into SQL and charts. |
+| Agent Name                                                    | Technology Stack | Status                    | Primary Capability |
+|:--------------------------------------------------------------| :--- |:--------------------------| :--- |
+| [PublisherAi](./agents/PublisherAI/streamlit_app.py)          | Python, LangChain, OpenAI | `Initial Setup Completed` | PublishAI is a Streamlit-based AI content agent that researches a topic on the web, reads real source articles, and generates a polished, ready-to-publish draft — a LinkedIn post, a Dev.to article, a README, or a research summary — in the correct format and tone for that content type. Drafts are saved automatically as Markdown files and shown in a built-in article library. |
+| [Email Summarizer](./agents/email-summarizer-py)              | Python, LangChain, OpenAI | `In Progress`             | Extracts action items and summaries from raw emails. |
 
 ---
 
