@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-groq
+langchain-community
+duckduckgo-search
+requests
+beautifulsoup4
+ddgs
+trafilatura
+langchain-google-genai
